@@ -1,0 +1,192 @@
+/* Language stuff */
+html[lang="ko"] [lang="en"] {
+    display: none !important;
+}
+html[lang="ko"] [lang="ko"] {
+display: inline;
+}
+html[lang="en"] [lang="en"] {
+display: inline;
+}
+html[lang="en"] [lang="ko"] {
+display: none !important;
+}
+[missing][lang] {
+color: red;
+}
+
+* {
+    background-color: rgb(20, 18, 18);
+}
+
+body {
+
+    min-height: 3000px;
+}
+
+audio {
+    width: 0px;
+    bottom: 0; 
+    position: fixed; 
+    left: 0;
+}
+
+.letters p {
+    display: flex;
+    justify-content: center;
+    color: papayawhip;
+    border-right: .15em solid orange;
+    font-family: "Courier";
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.letters p:nth-child(1) {
+    width: 18em;
+    -webkit-animation: type 4s steps(40, end);
+    animation: type 4s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.letters2 p:nth-child(2) {
+    width: 25em;
+    opacity: 0;
+    -webkit-animation: type2 6s steps(40, end);
+    animation: type2 6s steps(40, end);
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.letters2 p:nth-child(3) {
+    width: 36em;
+    opacity: 0;
+    -webkit-animation: type3 5s steps(50, end), blink .5s step-end infinite alternate;
+    animation: type3 5s steps(50, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 13s;
+    animation-delay: 13s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    99.9% {
+        border-right: .15em solid orange;
+    }
+    100% {
+        border: none;
+    }
+}
+
+@-webkit-keyframes type {
+    0% {
+        width: 0;
+    }
+    99.9% {
+        border-right: .15em solid orange;
+    }
+    100% {
+        border: none;
+    }
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99.9% {
+        border-right: .15em solid orange;
+    }
+    100% {
+        opacity: 1;
+        border: none;
+    }
+}
+
+@-webkit-keyframes type2 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99.9% {
+        border-right: .15em solid orange;
+    }
+    100% {
+        opacity: 1;
+        border: none;
+    }
+}
+
+@keyframes type3 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type3 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+@-webkit-keyframes blink {
+    50% {
+        border-color: tranparent;
+    }
+}
+
+#lightning {
+    z-index: 2;
+    position: absolute;
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+    animation: fade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#bg {
+    z-index: 1;
+    position: absolute;
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes fade {
+    0% { opacity: 0; }
+    25% { opacity: 0;}
+    30% { opacity: 1; }
+    45% { opacity: 0; }
+    100% { opacity: 0; }
+}
