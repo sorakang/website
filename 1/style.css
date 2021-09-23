@@ -166,3 +166,51 @@ audio {
     }
 }
 
+
+/* -------Images--------- */
+#lightning {
+    z-index: 2;
+    position: absolute;
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+    animation: fade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#bg {
+    z-index: 1;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+@keyframes fade {
+    0% { opacity: 0; }
+    25% { opacity: 0;}
+    30% { opacity: 1; }
+    45% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+/* --------Choices-------- */
+.choices {
+    position: absolute;
+    top: 1000px;
+    margin: 50px;
+}
+
+a {
+    z-index: 3;
+    position: relative;
+    color: papayawhip;
+    font-family: "Courier";
+    font-size: 30px;
+}
+
+a:hover {
+    color: cornflowerblue;
+}

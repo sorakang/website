@@ -5,7 +5,7 @@ body {
 p {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 100px;
     color: papayawhip;
     font-family: "Courier";
     font-size: 30px;
@@ -14,12 +14,12 @@ p {
 a {
     display: flex;
     justify-content: center;
-    padding-top: 350px;
+    padding-top: 430px;
     color: papayawhip;
     font-family: "Courier";
     font-size: 30px;
 }
 
 a:hover {
-    color: rgb(121, 143, 204);
+    color: cornflowerblue;
 }
