@@ -25,15 +25,15 @@ body {
 }
 
 audio {
-    width: 0px;
+    background-color: white;
+    filter: inverse(99%);
+    height: 20px;
     bottom: 0; 
     position: fixed; 
     left: 0;
 }
 
 .letters p {
-    display: flex;
-    justify-content: center;
     color: papayawhip;
     border-right: .15em solid orange;
     font-family: "Courier";
