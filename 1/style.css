@@ -20,20 +20,22 @@ color: red;
 }
 
 body {
-
-    min-height: 3000px;
+    min-height: 1300px;
 }
 
+
+/* --------Sound--------- */
 audio {
-    background-color: white;
-    filter: inverse(99%);
-    height: 20px;
+    width: 0px;
     bottom: 0; 
     position: fixed; 
     left: 0;
 }
 
+
+/* ---------Story---------- */
 .letters p {
+    margin: 50px;
     color: papayawhip;
     border-right: .15em solid orange;
     font-family: "Courier";
@@ -164,6 +166,8 @@ audio {
     }
 }
 
+
+/* -------Images--------- */
 #lightning {
     z-index: 2;
     position: absolute;
@@ -189,4 +193,24 @@ audio {
     30% { opacity: 1; }
     45% { opacity: 0; }
     100% { opacity: 0; }
+}
+
+
+/* --------Choices-------- */
+.choices {
+    position: absolute;
+    top: 1000px;
+    margin: 50px;
+}
+
+a {
+    z-index: 3;
+    position: relative;
+    color: papayawhip;
+    font-family: "Courier";
+    font-size: 30px;
+}
+
+a:hover {
+    color: cornflowerblue;
 }
