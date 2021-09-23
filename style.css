@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(20, 18, 18);
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: papayawhip;
+    font-family: "Courier";
+    font-size: 30px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    padding-top: 350px;
+    color: papayawhip;
+    font-family: "Courier";
+    font-size: 30px;
+}
+
+a:hover {
+    color: rgb(121, 143, 204);
+}
