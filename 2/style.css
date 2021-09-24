@@ -1,21 +1,4 @@
-/* Language stuff */
-html[lang="ko"] [lang="en"] {
-    display: none !important;
-}
-html[lang="ko"] [lang="ko"] {
-display: inline;
-}
-html[lang="en"] [lang="en"] {
-display: inline;
-}
-html[lang="en"] [lang="ko"] {
-display: none !important;
-}
-[missing][lang] {
-color: red;
-}
-
-/* 0-0 STYLES */
+/* 1-1 STYLES */
 
 * {
     background-color: rgb(20, 18, 18);
@@ -36,12 +19,6 @@ audio {
 
 
 /* ---------Story---------- */
-.letter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .letters p {
     margin: 30px;
     color: papayawhip;
@@ -54,7 +31,7 @@ audio {
 
 
 .letters p:nth-child(1) {
-    width: 18em;
+    width: 25em;
     -webkit-animation: type 4s steps(40, end);
     animation: type 4s steps(40, end);
     -webkit-animation-fill-mode: forwards;
@@ -62,7 +39,7 @@ audio {
 }
 
 .letters p:nth-child(2) {
-    width: 25em;
+    width: 25.3em;
     opacity: 0;
     -webkit-animation: type2 6s steps(40, end);
     animation: type2 6s steps(40, end);
@@ -73,12 +50,12 @@ audio {
 }
 
 .letters p:nth-child(3) {
-    width: 36em;
+    width: 26em;
     opacity: 0;
     -webkit-animation: type3 5s steps(50, end), blink .5s step-end infinite alternate;
     animation: type3 5s steps(50, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 13s;
-    animation-delay: 13s;
+    -webkit-animation-delay: 12s;
+    animation-delay: 12s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -209,12 +186,6 @@ audio {
 }
 
 /* -------Images--------- */
-.image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #lightning {
     z-index: 2;
     position: absolute;
