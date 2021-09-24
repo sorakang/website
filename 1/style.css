@@ -55,17 +55,17 @@ audio {
 
 .letters p:nth-child(1) {
     width: 18em;
-    -webkit-animation: type 4s steps(40, end);
-    animation: type 4s steps(40, end);
+    -webkit-animation: type 3s steps(40, end);
+    animation: type 3s steps(40, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 
 .letters p:nth-child(2) {
-    width: 25em;
+    width: 27em;
     opacity: 0;
-    -webkit-animation: type2 6s steps(40, end);
-    animation: type2 6s steps(40, end);
+    -webkit-animation: type2 3s steps(40, end);
+    animation: type2 3s steps(40, end);
     -webkit-animation-delay: 6s;
     animation-delay: 6s;
     -webkit-animation-fill-mode: forwards;
@@ -75,8 +75,8 @@ audio {
 .letters p:nth-child(3) {
     width: 36em;
     opacity: 0;
-    -webkit-animation: type3 5s steps(50, end), blink .5s step-end infinite alternate;
-    animation: type3 5s steps(50, end), blink .5s step-end infinite alternate;
+    -webkit-animation: type3 3s steps(50, end), blink .5s step-end infinite alternate;
+    animation: type3 3s steps(50, end), blink .5s step-end infinite alternate;
     -webkit-animation-delay: 13s;
     animation-delay: 13s;
     -webkit-animation-fill-mode: forwards;
