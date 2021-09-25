@@ -81,6 +81,16 @@ audio {
     align-items: center;
 }
 
+.scroll-two {
+    background-color: transparent;
+    color: papayawhip;
+    font-family: 'Courier';
+    animation: fadein 8s ease-in, float 3s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @keyframes float {
     0% {
         transform: translateY(0px);
@@ -132,6 +142,44 @@ audio {
     animation: flash 4s infinite, fadein 10s ease-in;
 }
 
+#sleep1-2 {
+    z-index: 2;
+    position: absolute;
+    width: 1200px;
+    margin: 0;
+    padding-top: 1000px;
+    background-color: transparent;
+    animation: fadein 2s ease-in;
+}
+
+#sleep2-2 {
+    position: absolute;
+    width: 1200px;
+    margin: 0;
+    padding-top: 1000px;
+    background-color: transparent;
+    animation: flash 4s infinite, fadein 2s ease-in;
+}
+
+#sleep3 {
+    z-index: 2;
+    position: absolute;
+    width: 1200px;
+    margin: 0;
+    padding-top: 850px;
+    background-color: transparent;
+    animation: fadein 4s ease-in;
+}
+
+#sleep4 {
+    position: absolute;
+    width: 1200px;
+    margin: 0;
+    padding-top: 850px;
+    background-color: transparent;
+    animation: flash 4s infinite, fadein 4s ease-in;
+}
+
 @keyframes flash {
     0% { z-index: 1; 
         opacity: 0;}
@@ -178,6 +226,25 @@ audio {
     animation: fadein 1s ease-in;
 }
 
+#chompykey {
+    z-index: 2;
+    position: absolute;
+    width: 1000px;
+    margin: 0;
+    padding-top: 1000px;
+    background-color: transparent;
+    animation: fadein 5s ease-in;
+}
+
+#gross {
+    z-index: 2;
+    position: absolute;
+    width: 1000px;
+    margin: 0;
+    padding-top: 1000px;
+    background-color: transparent;
+}
+
 
 /* --------Choices-------- */
 .choices-zero {
@@ -187,11 +254,25 @@ audio {
     animation: fadein 14s ease-in;
 }
 
+.choices-one- {
+    padding-top: 1000px;
+    padding-left: 23vw;
+    position: absolute;
+    animation: fadein 10s ease-in;
+}
+
 .choices-one {
     padding-top: 400px;
     padding-left: 23vw;
     position: absolute;
     animation: fadein 8s ease-in;
+}
+
+.choices-two {
+    padding-top: 1100px;
+    padding-left: 23vw;
+    position: absolute;
+    animation: fadein 9s ease-in;
 }
 
 p {
