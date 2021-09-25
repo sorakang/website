@@ -51,7 +51,7 @@ audio {
 }
 
 #typewriter.one {
-    z-index: 3;
+    z-index: 1;
     padding-top: 70px;
     padding-left: 10vw;
 }
@@ -62,12 +62,14 @@ audio {
 
 /* -------SCROLL------- */
 .scroll {
+    background-color: transparent;
     color: papayawhip;
     font-family: 'Courier';
-    animation: fadein 17s, float 3s ease-in-out infinite;
+    animation: fadein 16s, float 3s ease-in-out infinite;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
 }
 
 @keyframes float {
@@ -102,6 +104,34 @@ audio {
     padding-top: 50px;
 }
 
+#sleep1 {
+    z-index: 2;
+    position: absolute;
+    width: 1200px;
+    margin: 0;
+    padding-top: 500px;
+    background-color: transparent;
+    animation: fadein 5s ease-in;
+}
+
+#sleep2 {
+    position: absolute;
+    width: 1200px;
+    margin: 0;
+    padding-top: 500px;
+    background-color: transparent;
+    animation: flash 4s infinite, fadein 5s ease-in;
+}
+
+@keyframes flash {
+    0% { z-index: 1; 
+        opacity: 0;}
+    50% { z-index: 3;
+        opacity: 1; }
+    100% { z-index: 1;
+        opacity: 0; }
+}
+
 #lightning {
     z-index: 2;
     position: absolute;
@@ -122,7 +152,7 @@ audio {
 
 /* --------Choices-------- */
 .choices {
-    padding-top: 300px;
+    padding-top: 1000px;
     padding-left: 23vw;
     position: absolute;
 }
