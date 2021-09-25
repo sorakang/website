@@ -151,7 +151,13 @@ audio {
 
 
 /* --------Choices-------- */
-.choices {
+.choices-zero {
+    padding-top: 300px;
+    padding-left: 23vw;
+    position: absolute;
+}
+
+.choices-one {
     padding-top: 1000px;
     padding-left: 23vw;
     position: absolute;
