@@ -75,12 +75,21 @@ audio {
     background-color: transparent;
     color: papayawhip;
     font-family: 'Courier';
-    animation: fadein 8s ease-in, float 3s ease-in-out infinite;
+    animation: fadein 6s ease-in, float 3s ease-in-out infinite;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.scroll-two {
+    background-color: transparent;
+    color: papayawhip;
+    font-family: 'Courier';
+    animation: fadein 11s ease-in, float 3s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .scroll-two {
     background-color: transparent;
     color: papayawhip;
@@ -128,18 +137,18 @@ audio {
     position: absolute;
     width: 1200px;
     margin: 0;
-    padding-top: 500px;
+    padding-top: 1000px;
     background-color: transparent;
-    animation: fadein 10s ease-in;
+    animation: fadein 1s ease-in;
 }
 
 #sleep2 {
     position: absolute;
     width: 1200px;
     margin: 0;
-    padding-top: 500px;
+    padding-top: 1000px;
     background-color: transparent;
-    animation: flash 4s infinite, fadein 10s ease-in;
+    animation: flash 4s infinite, fadein 1s ease-in;
 }
 
 #sleep1-2 {
@@ -213,7 +222,7 @@ audio {
     margin: 0;
     padding-top: 650px;
     background-color: transparent;
-    animation: fadein 7s cubic-bezier(0.23, 0.0, 1, 1);
+    animation: fadein 5s cubic-bezier(0.23, 0.0, 1, 1);
 }
 
 #chompy-two {
@@ -236,16 +245,9 @@ audio {
     animation: fadein 5s ease-in;
 }
 
-#gross {
-    z-index: 2;
-    position: absolute;
-    width: 1000px;
-    margin: 0;
-    padding-top: 1000px;
-    background-color: transparent;
-}
-
-#key {
+#gross,
+#key,
+#keyturn {
     z-index: 2;
     position: absolute;
     width: 1000px;
