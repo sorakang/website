@@ -85,7 +85,7 @@ audio {
     background-color: transparent;
     color: papayawhip;
     font-family: 'Courier';
-    animation: fadein 8s ease-in, float 3s ease-in-out infinite;
+    animation: fadein 11s ease-in, float 3s ease-in-out infinite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,6 +245,24 @@ audio {
     background-color: transparent;
 }
 
+#key {
+    z-index: 2;
+    position: absolute;
+    width: 1000px;
+    margin: 0;
+    padding-top: 1000px;
+    background-color: transparent;
+}
+
+#chompybelly {
+    z-index: 2;
+    position: absolute;
+    width: 1000px;
+    margin: 0;
+    padding-top: 700px;
+    background-color: transparent;
+}
+
 
 /* --------Choices-------- */
 .choices-zero {
@@ -273,6 +291,13 @@ audio {
     padding-left: 23vw;
     position: absolute;
     animation: fadein 9s ease-in;
+}
+
+.choices-three {
+    padding-top: 300px;
+    padding-left: 23vw;
+    position: absolute;
+    animation: fadein 10s ease-in;
 }
 
 p {
