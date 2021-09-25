@@ -11,13 +11,22 @@ p {
     font-size: 30px;
 }
 
-a {
+a.start {
     display: flex;
     justify-content: center;
-    padding-top: 430px;
+    padding-top: 350px;
     color: papayawhip;
     font-family: "Courier";
     font-size: 30px;
+}
+
+a.lang {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    color: papayawhip;
+    font-family: "Courier";
+    font-size: 25px;
 }
 
 a:hover {
