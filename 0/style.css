@@ -21,13 +21,21 @@ color: red;
     background-color: rgb(20, 18, 18);
 }
 
-body {
+body.zero {
     min-height: 1300px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
+body.one {
+    min-height: 1900px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 /* --------Sound--------- */
 audio {
+    /* fix audio timing */
     width: 0px;
     bottom: 0; 
     position: fixed; 
@@ -36,149 +44,27 @@ audio {
 
 
 /* ---------Story---------- */
-.letter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#typewriter.zero {
+    z-index: 3;
+    padding-top: 180px;
+    padding-left: 10vw;
 }
 
-.letters p {
-    margin: 30px;
-    color: papayawhip;
-    border-right: .15em solid orange;
-    font-family: "Courier";
-    font-size: 25px;
-    white-space: nowrap;
-    overflow: hidden;
+#typewriter.one {
+    z-index: 3;
+    padding-top: 70px;
+    padding-left: 10vw;
 }
 
-
-.letters p:nth-child(1) {
-    width: 18em;
-    -webkit-animation: type 3s steps(40, end);
-    animation: type 3s steps(40, end);
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-
-.letters p:nth-child(2) {
-    width: 27em;
-    opacity: 0;
-    -webkit-animation: type2 3s steps(40, end);
-    animation: type2 3s steps(40, end);
-    -webkit-animation-delay: 6s;
-    animation-delay: 6s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-
-.letters p:nth-child(3) {
-    width: 36em;
-    opacity: 0;
-    -webkit-animation: type3 3s steps(50, end), blink .5s step-end infinite alternate;
-    animation: type3 3s steps(50, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 13s;
-    animation-delay: 13s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-
-@keyframes type {
-    0% {
-        width: 0;
-    }
-    99.9% {
-        border-right: .15em solid orange;
-    }
-    100% {
-        border: none;
-    }
-}
-
-@-webkit-keyframes type {
-    0% {
-        width: 0;
-    }
-    99.9% {
-        border-right: .15em solid orange;
-    }
-    100% {
-        border: none;
-    }
-}
-
-@keyframes type2 {
-    0% {
-        width: 0;
-    }
-    1% {
-        opacity: 1;
-    }
-    99.9% {
-        border-right: .15em solid orange;
-    }
-    100% {
-        opacity: 1;
-        border: none;
-    }
-}
-
-@-webkit-keyframes type2 {
-    0% {
-        width: 0;
-    }
-    1% {
-        opacity: 1;
-    }
-    99.9% {
-        border-right: .15em solid orange;
-    }
-    100% {
-        opacity: 1;
-        border: none;
-    }
-}
-
-@keyframes type3 {
-    0% {
-        width: 0;
-    }
-    1% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes type3 {
-    0% {
-        width: 0;
-    }
-    1% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes blink {
-    50% {
-        border-color: transparent;
-    }
-}
-@-webkit-keyframes blink {
-    50% {
-        border-color: tranparent;
-    }
+.pause {
+    color: rgb(20, 18, 18);
 }
 
 /* -------SCROLL------- */
 .scroll {
     color: papayawhip;
     font-family: 'Courier';
-    animation: fadein 20s, float 3s ease-in-out infinite;
+    animation: fadein 17s, float 3s ease-in-out infinite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,25 +99,16 @@ audio {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
 }
 
 #lightning {
     z-index: 2;
     position: absolute;
-    width: 1000px;
+    width: 2500px;
     margin: 0;
     padding: 0;
-    animation: fade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-#bg {
-    z-index: 1;
-    width: 1000px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    animation: fade 4s infinite;
 }
 
 @keyframes fade {
@@ -245,17 +122,13 @@ audio {
 
 /* --------Choices-------- */
 .choices {
+    padding-top: 300px;
+    padding-left: 23vw;
     position: absolute;
-    top: 1000px;
 }
 
-.choices p {
-    margin: 30px;
-    color: papayawhip;
-    font-family: "Courier";
-    font-size: 25px;
-    white-space: nowrap;
-    overflow: hidden;
+p {
+    padding-bottom: 30px;
 }
 
 a {
@@ -263,8 +136,10 @@ a {
     position: relative;
     color: papayawhip;
     font-family: "Courier";
+    font-size: 25px;
+    animation: fadein 18s ease-in;
 }
 
 a:hover {
-    color: cornflowerblue;
+    color: rgb(231, 94, 94);
 }
