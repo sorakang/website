@@ -65,11 +65,10 @@ audio {
     background-color: transparent;
     color: papayawhip;
     font-family: 'Courier';
-    animation: fadein 16s, float 3s ease-in-out infinite;
+    animation: fadein 13s, float 3s ease-in-out infinite;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
 }
 
 .scroll-one {
@@ -80,7 +79,6 @@ audio {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
 }
 
 @keyframes float {
@@ -122,7 +120,7 @@ audio {
     margin: 0;
     padding-top: 500px;
     background-color: transparent;
-    animation: fadein 5s ease-in;
+    animation: fadein 10s ease-in;
 }
 
 #sleep2 {
@@ -131,7 +129,7 @@ audio {
     margin: 0;
     padding-top: 500px;
     background-color: transparent;
-    animation: flash 4s infinite, fadein 5s ease-in;
+    animation: flash 4s infinite, fadein 10s ease-in;
 }
 
 @keyframes flash {
@@ -161,13 +159,23 @@ audio {
 }
 
 #chompy-one {
+    z-index: 3;
+    position: absolute;
+    width: 1000px;
+    margin: 0;
+    padding-top: 650px;
+    background-color: transparent;
+    animation: fadein 7s cubic-bezier(0.23, 0.0, 1, 1);
+}
+
+#chompy-two {
     z-index: 2;
     position: absolute;
     width: 1000px;
     margin: 0;
-    padding-top: 500px;
+    padding-top: 650px;
     background-color: transparent;
-    animation: fadein 6s;
+    animation: fadein 1s ease-in;
 }
 
 
@@ -176,12 +184,14 @@ audio {
     padding-top: 300px;
     padding-left: 23vw;
     position: absolute;
+    animation: fadein 14s ease-in;
 }
 
 .choices-one {
-    padding-top: 1000px;
+    padding-top: 400px;
     padding-left: 23vw;
     position: absolute;
+    animation: fadein 8s ease-in;
 }
 
 p {
@@ -194,7 +204,6 @@ a {
     color: papayawhip;
     font-family: "Courier";
     font-size: 25px;
-    animation: fadein 18s ease-in;
 }
 
 a:hover {
