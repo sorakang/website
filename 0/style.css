@@ -72,6 +72,17 @@ audio {
     padding-top: 30px;
 }
 
+.scroll-one {
+    background-color: transparent;
+    color: papayawhip;
+    font-family: 'Courier';
+    animation: fadein 8s ease-in, float 3s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
 @keyframes float {
     0% {
         transform: translateY(0px);
@@ -147,6 +158,16 @@ audio {
     30% { opacity: 1; }
     45% { opacity: 0; }
     100% { opacity: 0; }
+}
+
+#chompy-one {
+    z-index: 2;
+    position: absolute;
+    width: 1000px;
+    margin: 0;
+    padding-top: 500px;
+    background-color: transparent;
+    animation: fadein 6s;
 }
 
 
