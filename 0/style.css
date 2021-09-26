@@ -69,6 +69,12 @@ audio {
     color: rgb(20, 18, 18);
 }
 
+.shift {
+    color: rgb(236, 49, 49);
+    font-weight: bold;
+}
+
+
 /* -------SCROLL------- */
 .scroll {
     background-color: transparent;
@@ -307,6 +313,28 @@ audio {
 
 #purple {
     z-index: 2;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 3700px;
+    background-color: transparent;
+}
+#purple1 {
+    z-index: 6;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 3700px;
+    background-color: transparent;
+}#purple2 {
+    z-index: 8;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 3700px;
+    background-color: transparent;
+}#purple3 {
+    z-index: 7;
     position: absolute;
     width: 100%;
     margin: 0;
