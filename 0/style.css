@@ -33,6 +33,15 @@ body.one {
     overflow-x: hidden;
 }
 
+body.five {
+    animation: disablescroll 37s;
+}
+
+@keyframes disablescroll {
+    0% { overflow: hidden;}
+    100% { overflow: scroll;}
+}
+
 /* --------Sound--------- */
 audio {
     /* fix audio timing */
@@ -299,15 +308,15 @@ audio {
 #purple {
     z-index: 2;
     position: absolute;
-    width: 1500px;
+    width: 100%;
     margin: 0;
-    padding-top: 3600px;
+    padding-top: 3700px;
     background-color: transparent;
 }
 #blue {
     z-index: 2;
     position: absolute;
-    width: 1500px;
+    width: 100%;
     margin: 0;
     padding-top: 7600px;
     background-color: transparent;
@@ -315,7 +324,7 @@ audio {
 #green {
     z-index: 2;
     position: absolute;
-    width: 1500px;
+    width: 100%;
     margin: 0;
     padding-top: 10900px;
     background-color: transparent;
@@ -323,7 +332,7 @@ audio {
 #yellow {
     z-index: 2;
     position: absolute;
-    width: 1500px;
+    width: 100%;
     margin: 0;
     padding-top: 14400px;
     background-color: transparent;
@@ -331,7 +340,7 @@ audio {
 #orange {
     z-index: 2;
     position: absolute;
-    width: 1500px;
+    width: 100%;
     margin: 0;
     padding-top: 18300px;
     background-color: transparent;
@@ -339,7 +348,7 @@ audio {
 #red {
     z-index: 2;
     position: absolute;
-    width: 1500px;
+    width: 100%;
     margin: 0;
     padding-top: 21600px;
     background-color: transparent;
