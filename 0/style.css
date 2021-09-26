@@ -30,12 +30,6 @@ body.zero {
 body.one {
     min-height: 1900px;
     max-width: 100%;
-    overflow: hidden;
-}
-
-body.five {
-    max-height: 100px;
-    max-width: 100%;
     overflow-x: hidden;
 }
 
