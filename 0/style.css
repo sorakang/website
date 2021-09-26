@@ -405,6 +405,17 @@ audio {
     position: absolute;
     background-color: transparent;
 }
+#rebelend {
+    z-index: 3;
+    position: relative;
+    color: papayawhip;
+    font-family: "Courier";
+    font-size: 25px;
+    padding-left: 1vw;
+    padding-top: 600px;
+    position: absolute;
+    background-color: transparent;
+}
 
 p {
     padding-bottom: 30px;
