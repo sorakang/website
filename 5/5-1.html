@@ -1,36 +1,89 @@
 <title>Sora's Website</title>
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="/website/0/type.scss">
+<link rel="stylesheet" href="/website/0/style.css">
 </head>
-<body>
+<body class="five">
 <audio src="" controls autoplay></audio>
 
+<div class="image">
+    <img src="/website/5/img5-1-1.png" alt="" id="falling">
+    <img src="/website/5/img5-1-2.png" alt="" id="purple">
+    <img src="/website/5/img5-1-3.png" alt="" id="blue">
+    <img src="/website/5/img5-1-4.png" alt="" id="green">
+    <img src="/website/5/img5-1-5.png" alt="" id="yellow">
+    <img src="/website/5/img5-1-6.png" alt="" id="orange">
+    <img src="/website/5/img5-1-7.png" alt="" id="red">
+    <img src="/website/5/img5-1-8.png" alt="" id="doorway">
+    <img src="/website/5/img5-1-9.png" alt="" id="door">
+</div>
 <div class="letters">
-    <p>As you open the door,</p>
-    <p>gravity <span>shifts</span> from under you to in front of you.</p>
-    <p>You fall through the d</p>
-    <p id="dooro1">o</p>
-    <p id="dooro2">o</p>
-    <p id="doorr">r</p>
-    <p id="door1">.</p>
-    <p id="door2">.</p>
-    <p id="door3">.</p>
+    <pre id="typewriter">
+        
+        
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+                                        As you open the door,
+
+
+
+
+
+
+
+
+    gravity <span>shifts</span> from under you to in front of you.
+    
+    
+    
+                                                        You fall through the d
+                                                                              o
+                                                                                o
+                                                                                  r        
+    </pre>
 </div>
 <div class="scroll">
     <p>Scroll Down</p>
 </div>
-<div class="image">
-    <img src="" alt="" id="">
-    <img src="" alt="" id="">
-</div>
 <div class="letters">
-    <p>
-        As you find your descent slowing, 
-        you see the floor nearing you, 
-        and a large bed in the center.
-    </p>
+    <pre id="descend">
+As you find your descent slowing, 
+        
+
+
+                                                    you see the floor nearing you, 
+        
+
+
+
+
+    and a large bed in the center.
+    </pre>
 </div>
-<div class="choices">
+<div class="choices-four">
     <p><a href="/website/6/6-1.html">Aim for the bed, a perfect landing spot</a></p>
     <p><a href="/website/6/6-2.html">Aim for anywhere other than the bed.</a></p>
 </div>
+<script type="text/javascript">
+        
+    // JS - attaching names
+    let falling = document.getElementById("falling")
+
+    // JS - interactive scrolling with images
+    window.addEventListener('scroll', function(){
+        var value = window.scrollY;
+
+        falling.style.top = value * 1.09 + 'px';
+        
+    })
+
+</script>
+<script src="/website/0/type.js"></script>
 </body>

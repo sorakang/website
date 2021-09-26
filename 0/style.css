@@ -30,6 +30,12 @@ body.zero {
 body.one {
     min-height: 1900px;
     max-width: 100%;
+    overflow: hidden;
+}
+
+body.five {
+    max-height: 100px;
+    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -265,6 +271,88 @@ audio {
     background-color: transparent;
 }
 
+#doorway,
+#door {
+    animation: fadein 10s ease-in;
+}
+
+#falling {
+    z-index: 5;
+    position: absolute;
+    width: 1000px;
+    margin: 0;
+    padding-top: 0px;
+    background-color: transparent;
+    animation: fadein 11s ease-in;
+}
+#doorway {
+    z-index: 6;
+    position: absolute;
+    width: 1000px;
+    margin: 0;
+    padding-top: 1100px;
+    background-color: transparent;
+}
+#door {
+    z-index: 4;
+    position: absolute;
+    width: 1000px;
+    margin: 0;
+    padding-top: 1100px;
+    background-color: transparent;
+}
+
+#purple {
+    z-index: 2;
+    position: absolute;
+    width: 1500px;
+    margin: 0;
+    padding-top: 3600px;
+    background-color: transparent;
+}
+#blue {
+    z-index: 2;
+    position: absolute;
+    width: 1500px;
+    margin: 0;
+    padding-top: 7600px;
+    background-color: transparent;
+}
+#green {
+    z-index: 2;
+    position: absolute;
+    width: 1500px;
+    margin: 0;
+    padding-top: 10900px;
+    background-color: transparent;
+}
+#yellow {
+    z-index: 2;
+    position: absolute;
+    width: 1500px;
+    margin: 0;
+    padding-top: 14400px;
+    background-color: transparent;
+}
+#orange {
+    z-index: 2;
+    position: absolute;
+    width: 1500px;
+    margin: 0;
+    padding-top: 18300px;
+    background-color: transparent;
+}
+#red {
+    z-index: 2;
+    position: absolute;
+    width: 1500px;
+    margin: 0;
+    padding-top: 21600px;
+    background-color: transparent;
+}
+
+
+
 
 /* --------Choices-------- */
 .choices-zero {
@@ -300,6 +388,28 @@ audio {
     padding-left: 23vw;
     position: absolute;
     animation: fadein 10s ease-in;
+}
+
+.choices-four {
+    z-index: 3;
+    position: relative;
+    font-size: 25px;
+    padding-left: 35vw;
+    padding-top: 10300px;
+    position: absolute;
+    background-color: transparent;
+}
+
+#descend {
+    z-index: 3;
+    position: relative;
+    color: papayawhip;
+    font-family: "Courier";
+    font-size: 25px;
+    padding-left: 18vw;
+    padding-top: 9800px;
+    position: absolute;
+    background-color: transparent;
 }
 
 p {
