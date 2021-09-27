@@ -104,11 +104,11 @@ As you find your descent slowing,
     let yellow3 = document.getElementById("yellow3")
     let yellow4 = document.getElementById("yellow4")
     let yellow5 = document.getElementById("yellow5")
-
+    
     // JS - interactive scrolling with images
     window.addEventListener('scroll', function(){
         var value = window.scrollY;
-
+        
         falling.style.top = value * 1.09 + 'px';
         falling2.style.top = value * 1.09 + 'px';
         purple1.style.left = value * 0.2 + 'px';
@@ -130,6 +130,7 @@ As you find your descent slowing,
         yellow4.style.top = -value * 0.6 + 'px';
         yellow5.style.top = -value * 0.6 + 'px';
         
+        if (value <= 20000) {}
     })
 
 </script>
