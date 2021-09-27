@@ -7,6 +7,7 @@
 
 <div class="image">
     <img src="/website/5/img5-1-1.png" alt="" id="falling">
+    <img src="/website/5/falling.png" alt="" id="falling2">
     <img src="/website/5/img5-1-2.png" alt="" id="purple">
     <img src="/website/5/img5-1-3.png" alt="" id="blue">
     <img src="/website/5/img5-1-4.png" alt="" id="green">
@@ -87,6 +88,7 @@ As you find your descent slowing,
         
     // JS - attaching names
     let falling = document.getElementById("falling")
+    let falling2 = document.getElementById("falling2")
     let purple1 = document.getElementById("purple1")
     let purple2 = document.getElementById("purple2")
     let purple3 = document.getElementById("purple3")
@@ -108,11 +110,13 @@ As you find your descent slowing,
         var value = window.scrollY;
 
         falling.style.top = value * 1.09 + 'px';
+        falling2.style.top = value * 1.09 + 'px';
         purple1.style.left = value * 0.2 + 'px';
         purple2.style.left = value * 0.5 + 'px';
         purple3.style.left = -value * 0.2 + 'px';
         blue1.style.left = -value * 0.1 + 'px';
-        blue2.style.left = value * 0.3 + 'px';
+        blue2.style.left = value * 0.17 + 'px';
+        blue2.style.top = -value * 0.2 + 'px';
         blue3.style.left = value * 0.1 + 'px';
         blue4.style.left = -value * 0.1 + 'px';
         green1.style.left = value * 0.04 + 'px';

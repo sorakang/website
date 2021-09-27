@@ -301,6 +301,15 @@ audio {
     margin: 0;
     padding-top: 0px;
     background-color: transparent;
+    animation: fadein 18s ease-in;
+}
+#falling2 {
+    z-index: 4;
+    position: absolute;
+    width: 1000px;
+    margin: 0;
+    padding-top: 0px;
+    background-color: transparent;
     animation: fadein 11s ease-in;
 }
 #doorway {
@@ -308,15 +317,15 @@ audio {
     position: absolute;
     width: 1000px;
     margin: 0;
-    padding-top: 1100px;
+    padding-top: 1200px;
     background-color: transparent;
 }
 #door {
-    z-index: 4;
+    z-index: 3;
     position: absolute;
     width: 1000px;
     margin: 0;
-    padding-top: 1100px;
+    padding-top: 1200px;
     background-color: transparent;
 }
 
@@ -377,8 +386,9 @@ audio {
     position: absolute;
     width: 80%;
     margin: 0;
-    padding-top: 4500px;
+    padding-top: 2600px;
     background-color: transparent;
+    animation: fadein 14s ease-in;
 }
 #blue3 {
     z-index: 7;
@@ -428,7 +438,7 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 3500px;
+    padding-top: 3300px;
     background-color: transparent;
     animation: fadein 17s ease-in;
 }
