@@ -35,7 +35,7 @@ body.one {
 
 body.five {
     max-height: 200px;
-    /* animation: disablescroll 37s; */
+    animation: disablescroll 37s;
 }
 
 @keyframes disablescroll {
@@ -302,7 +302,7 @@ audio {
     margin: 0;
     padding-top: 0px;
     background-color: transparent;
-    /* animation: fadein 18s ease-in; */
+    animation: fadein 18s ease-in;
 }
 #falling2 {
     z-index: 4;
