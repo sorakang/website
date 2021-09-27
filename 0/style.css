@@ -39,7 +39,8 @@ body.five {
 
 @keyframes disablescroll {
     0% { overflow: hidden;}
-    100% { overflow: scroll;}
+    100% { overflow: scroll;
+        overflow-x: hidden;}
 }
 
 /* --------Sound--------- */
@@ -64,6 +65,14 @@ audio {
     padding-top: 70px;
     padding-left: 10vw;
 }
+
+#typewriter.five {
+    z-index: 10;
+    padding-top: 70px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
 
 .pause {
     color: rgb(20, 18, 18);
@@ -311,6 +320,7 @@ audio {
     background-color: transparent;
 }
 
+
 #purple {
     z-index: 2;
     position: absolute;
@@ -324,23 +334,28 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 3700px;
+    padding-top: 4000px;
     background-color: transparent;
-}#purple2 {
+}
+#purple2 {
     z-index: 8;
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 3700px;
+    padding-top: 2000px;
     background-color: transparent;
-}#purple3 {
+    animation: fadein 12s ease-in;
+}
+#purple3 {
     z-index: 7;
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 3700px;
+    padding-top: 5300px;
     background-color: transparent;
 }
+
+
 #blue {
     z-index: 2;
     position: absolute;
@@ -349,6 +364,40 @@ audio {
     padding-top: 7600px;
     background-color: transparent;
 }
+#blue1 {
+    z-index: 6;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 7300px;
+    background-color: transparent;
+}
+#blue2 {
+    z-index: 8;
+    position: absolute;
+    width: 80%;
+    margin: 0;
+    padding-top: 4500px;
+    background-color: transparent;
+}
+#blue3 {
+    z-index: 7;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 7400px;
+    background-color: transparent;
+}
+#blue4 {
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 8500px;
+    background-color: transparent;
+}
+
+
 #green {
     z-index: 2;
     position: absolute;
@@ -357,14 +406,84 @@ audio {
     padding-top: 10900px;
     background-color: transparent;
 }
+#green1 {
+    z-index: 6;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 2700px;
+    background-color: transparent;
+    animation: fadein 16s ease-in;
+}
+#green2 {
+    z-index: 8;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 9900px;
+    background-color: transparent;
+}
+#green3 {
+    z-index: 7;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 3500px;
+    background-color: transparent;
+    animation: fadein 17s ease-in;
+}
+
+
 #yellow {
     z-index: 2;
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 14400px;
+    padding-top: 14000px;
     background-color: transparent;
 }
+#yellow1 {
+    z-index: 6;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 16800px;
+    background-color: transparent;
+}
+#yellow2 {
+    z-index: 8;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 14200px;
+    background-color: transparent;
+}
+#yellow3 {
+    z-index: 7;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 9000px;
+    background-color: transparent;
+}
+#yellow4 {
+    z-index: 7;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 9000px;
+    background-color: transparent;
+}
+#yellow5 {
+    z-index: 7;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 13000px;
+    background-color: transparent;
+}
+
+
 #orange {
     z-index: 2;
     position: absolute;
@@ -373,6 +492,7 @@ audio {
     padding-top: 18300px;
     background-color: transparent;
 }
+
 #red {
     z-index: 2;
     position: absolute;

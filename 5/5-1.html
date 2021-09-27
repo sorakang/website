@@ -18,9 +18,22 @@
     <img src="/website/5/purple1.png" alt="" id="purple1">
     <img src="/website/5/purple2.png" alt="" id="purple2">
     <img src="/website/5/purple3.png" alt="" id="purple3">
+    <img src="/website/5/blue1.png" alt="" id="blue1">
+    <img src="/website/5/blue2.png" alt="" id="blue2">
+    <img src="/website/5/blue3.png" alt="" id="blue3">
+    <img src="/website/5/blue1.png" alt="" id="blue4">
+    <img src="/website/5/green1.png" alt="" id="green1">
+    <img src="/website/5/green2.png" alt="" id="green2">
+    <img src="/website/5/green3.png" alt="" id="green3">
+    <img src="/website/5/yellow1.png" alt="" id="yellow1">
+    <img src="/website/5/yellow2.png" alt="" id="yellow2">
+    <img src="/website/5/yellow3.png" alt="" id="yellow3">
+    <img src="/website/5/yellow4.png" alt="" id="yellow4">
+    <img src="/website/5/yellow4.png" alt="" id="yellow5">
+    
 </div>
 <div class="letters">
-    <pre id="typewriter">
+    <pre id="typewriter" class="five">
         
         
         
@@ -32,24 +45,20 @@
     
         
         
-        
-                                                      As you open the door,
+    As you open the door,
 
 
 
 
 
-
-
-
-                            gravity <span class="shift">shifts</span> from under you to in front of you.
+                gravity <span class="shift">shifts</span> from under you to in front of you.
     
     
     
-                                                                                You fall through the d
-                                                                                                       o
-                                                                                                        o
-                                                                                                         r        
+                                                                    You fall through the d
+                                                                                          o
+                                                                                            o
+                                                                                              r        
     </pre>
 </div>
 <div class="scroll">
@@ -81,6 +90,18 @@ As you find your descent slowing,
     let purple1 = document.getElementById("purple1")
     let purple2 = document.getElementById("purple2")
     let purple3 = document.getElementById("purple3")
+    let blue1 = document.getElementById("blue1")
+    let blue2 = document.getElementById("blue2")
+    let blue3 = document.getElementById("blue3")
+    let blue4 = document.getElementById("blue4")
+    let green1 = document.getElementById("green1")
+    let green2 = document.getElementById("green2")
+    let green3 = document.getElementById("green3")
+    let yellow1 = document.getElementById("yellow1")
+    let yellow2 = document.getElementById("yellow2")
+    let yellow3 = document.getElementById("yellow3")
+    let yellow4 = document.getElementById("yellow4")
+    let yellow5 = document.getElementById("yellow5")
 
     // JS - interactive scrolling with images
     window.addEventListener('scroll', function(){
@@ -90,6 +111,20 @@ As you find your descent slowing,
         purple1.style.left = value * 0.2 + 'px';
         purple2.style.left = value * 0.5 + 'px';
         purple3.style.left = -value * 0.2 + 'px';
+        blue1.style.left = -value * 0.1 + 'px';
+        blue2.style.left = value * 0.3 + 'px';
+        blue3.style.left = value * 0.1 + 'px';
+        blue4.style.left = -value * 0.1 + 'px';
+        green1.style.left = value * 0.04 + 'px';
+        green1.style.top = value * 0.4 + 'px';
+        green2.style.left = value * 0.06 + 'px';
+        green3.style.left = -value * 0.04 + 'px';
+        green3.style.top = value * 0.4 + 'px';
+        yellow1.style.left = value * 0.03 + 'px';
+        yellow2.style.left = -value * 0.03 + 'px';
+        yellow3.style.top = -value * 0.4 + 'px';
+        yellow4.style.top = -value * 0.6 + 'px';
+        yellow5.style.top = -value * 0.6 + 'px';
         
     })
 
