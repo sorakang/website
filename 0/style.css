@@ -351,7 +351,7 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 2000px;
+    padding-top: 2500px;
     background-color: transparent;
     animation: fadein 12s ease-in;
 }
