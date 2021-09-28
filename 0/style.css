@@ -299,6 +299,15 @@ audio {
     animation: fadein 8s ease-in;
 }
 
+#goodnight {
+    position: absolute;
+    width: 1200px;
+    margin: 0;
+    padding-top: 1000px;
+    background-color: transparent;
+    animation: fadein 3s ease-in;
+}
+
 #chompybelly {
     z-index: 2;
     position: absolute;
