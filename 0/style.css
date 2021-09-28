@@ -272,13 +272,31 @@ audio {
 
 #gross,
 #key,
-#keyturn {
+#keyturn,
+#blankie {
     z-index: 2;
     position: absolute;
     width: 1000px;
     margin: 0;
     padding-top: 1000px;
     background-color: transparent;
+}
+
+#bedfall {
+    position: absolute;
+    width: 1200px;
+    margin: 0;
+    padding-top: 950px;
+    background-color: transparent;
+}
+
+#sleepypats {
+    position: absolute;
+    width: 1200px;
+    margin: 0;
+    padding-top: 700px;
+    background-color: transparent;
+    animation: fadein 8s ease-in;
 }
 
 #chompybelly {
@@ -518,38 +536,43 @@ audio {
 
 /* --------Choices-------- */
 .choices-zero {
-    padding-top: 300px;
+    padding-top: 1100px;
     padding-left: 23vw;
     position: absolute;
-    animation: fadein 14s ease-in;
+    background-color: transparent;
+    /* animation: fadein 14s ease-in; */
 }
 
 .choices-one- {
-    padding-top: 1000px;
+    padding-top: 1300px;
     padding-left: 23vw;
     position: absolute;
-    animation: fadein 10s ease-in;
+    background-color: transparent;
+    /* animation: fadein 10s ease-in; */
 }
 
 .choices-one {
-    padding-top: 400px;
+    padding-top: 1300px;
     padding-left: 23vw;
     position: absolute;
-    animation: fadein 8s ease-in;
+    background-color: transparent;
+    /* animation: fadein 8s ease-in; */
 }
 
 .choices-two {
     padding-top: 1100px;
     padding-left: 23vw;
     position: absolute;
-    animation: fadein 9s ease-in;
+    background-color: transparent;
+    /* animation: fadein 9s ease-in; */
 }
 
 .choices-three {
-    padding-top: 300px;
+    padding-top: 1200px;
     padding-left: 23vw;
     position: absolute;
-    animation: fadein 10s ease-in;
+    background-color: transparent;
+    /* animation: fadein 10s ease-in; */
 }
 
 .choices-four {
@@ -580,7 +603,7 @@ audio {
     font-family: "Courier";
     font-size: 25px;
     padding-left: 1vw;
-    padding-top: 600px;
+    padding-top: 900px;
     position: absolute;
     background-color: transparent;
 }
