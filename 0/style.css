@@ -21,6 +21,8 @@ color: red;
     background-color: rgb(20, 18, 18);
 }
 
+
+
 body.zero {
     min-height: 1300px;
     max-width: 100%;
@@ -70,12 +72,40 @@ audio {
     z-index: 3;
     padding-top: 180px;
     padding-left: 10vw;
+    display: inline-block;
+    text-align: left;
+    background-color: transparent;
 }
 
 #typewriter.one {
     z-index: 1;
     padding-top: 70px;
     padding-left: 10vw;
+    display: inline-block;
+    text-align: left;
+    background-color: transparent;
+}
+
+#typewriter.two {
+    font-size: 1.5vw;
+    z-index: 10;
+    padding-top: 40px;
+    padding-left: 0vw;
+    padding-right: 10vw;
+    display: inline-block;
+    text-align: left;
+    background-color: transparent;
+}
+
+#typewriter.three {
+    font-size: 1.5vw;
+    z-index: 10;
+    padding-top: 40px;
+    padding-left: 20vw;
+    padding-right: 10vw;
+    display: inline-block;
+    text-align: left;
+    background-color: transparent;
 }
 
 #typewriter.five {
@@ -359,7 +389,7 @@ audio {
     position: absolute;
     width: 1000px;
     margin: 0;
-    padding-top: 700px;
+    padding-top: 1000px;
     background-color: transparent;
 }
 
