@@ -38,6 +38,11 @@ body.five {
     animation: disablescroll 37s;
 }
 
+body.five:after {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
 @keyframes disablescroll {
     0% { overflow: hidden;}
     100% { overflow: scroll;
@@ -55,6 +60,12 @@ audio {
 
 
 /* ---------Story---------- */
+.letters {
+    display: flex;
+    text-align: center;
+    background-color: transparent;
+}
+
 #typewriter.zero {
     z-index: 3;
     padding-top: 180px;
@@ -68,12 +79,26 @@ audio {
 }
 
 #typewriter.five {
+    font-size: 2vw;
     z-index: 10;
     padding-top: 70px;
     padding-left: 10vw;
     padding-right: 10vw;
+    display: inline-block;
+    text-align: left;
+    background-color: transparent;
 }
 
+#typewriter.six {
+    font-size: 2vw;
+    z-index: 10;
+    padding-top: 1vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: inline-block;
+    text-align: left;
+    background-color: transparent;
+}
 
 .pause {
     color: rgb(20, 18, 18);
@@ -120,6 +145,26 @@ audio {
     color: papayawhip;
     font-family: 'Courier';
     animation: fadein 11s ease-in, float 3s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-five {
+    background-color: transparent;
+    color: papayawhip;
+    font-family: 'Courier';
+    animation: fadein 12s, float 3s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-six {
+    background-color: transparent;
+    color: papayawhip;
+    font-family: 'Courier';
+    animation: fadein 7s ease-in, float 3s ease-in-out infinite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,10 +329,11 @@ audio {
 
 #bedfall {
     position: absolute;
-    width: 1200px;
+    width: 100vw;
     margin: 0;
-    padding-top: 950px;
+    padding-top: 80vw;
     background-color: transparent;
+    animation: fadein 6s;
 }
 
 #sleepypats {
@@ -343,17 +389,17 @@ audio {
 #doorway {
     z-index: 6;
     position: absolute;
-    width: 1000px;
+    width: 100%;
     margin: 0;
-    padding-top: 1200px;
+    padding-top: 110vw;
     background-color: transparent;
 }
 #door {
     z-index: 3;
     position: absolute;
-    width: 1000px;
+    width: 100%;
     margin: 0;
-    padding-top: 1200px;
+    padding-top: 110vw;
     background-color: transparent;
 }
 
@@ -363,7 +409,7 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 3700px;
+    padding-top: 300vw;
     background-color: transparent;
 }
 #purple1 {
@@ -371,7 +417,7 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 4000px;
+    padding-top: 300vw;
     background-color: transparent;
 }
 #purple2 {
@@ -379,7 +425,7 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 2500px;
+    padding-top: 170vw;
     background-color: transparent;
     animation: fadein 12s ease-in;
 }
@@ -388,7 +434,7 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 5300px;
+    padding-top: 380vw;
     background-color: transparent;
 }
 
@@ -398,7 +444,7 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 7600px;
+    padding-top: 500vw;
     background-color: transparent;
 }
 #blue1 {
@@ -406,7 +452,7 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 7300px;
+    padding-top: 480vw;
     background-color: transparent;
 }
 #blue2 {
@@ -414,24 +460,24 @@ audio {
     position: absolute;
     width: 80%;
     margin: 0;
-    padding-top: 2600px;
+    padding-top: 160vw;
     background-color: transparent;
-    animation: fadein 14s ease-in;
+    animation: fadein 13s ease-in;
 }
 #blue3 {
     z-index: 7;
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 7400px;
+    padding-top: 560vw;
     background-color: transparent;
 }
 #blue4 {
-    z-index: 4;
+    z-index: 3;
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 8500px;
+    padding-top: 570vw;
     background-color: transparent;
 }
 
@@ -441,34 +487,34 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 10900px;
+    padding-top: 700vw;
     background-color: transparent;
 }
 #green1 {
-    z-index: 6;
+    z-index: 7;
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 2700px;
+    padding-top: 160vw;
     background-color: transparent;
-    animation: fadein 16s ease-in;
+    animation: fadein 13s ease-in;
 }
 #green2 {
     z-index: 8;
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 9900px;
+    padding-top: 790vw;
     background-color: transparent;
 }
 #green3 {
-    z-index: 7;
+    z-index: 8;
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 3300px;
+    padding-top: 240vw;
     background-color: transparent;
-    animation: fadein 17s ease-in;
+    animation: fadein 13s ease-in;
 }
 
 
@@ -477,15 +523,15 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 14000px;
+    padding-top: 900vw;
     background-color: transparent;
 }
 #yellow1 {
-    z-index: 6;
+    z-index: 3;
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 16800px;
+    padding-top: 950vw;
     background-color: transparent;
 }
 #yellow2 {
@@ -493,7 +539,7 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 14200px;
+    padding-top: 950vw;
     background-color: transparent;
 }
 #yellow3 {
@@ -501,7 +547,7 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 9000px;
+    padding-top: 550vw;
     background-color: transparent;
 }
 #yellow4 {
@@ -509,7 +555,7 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 9000px;
+    padding-top: 550vw;
     background-color: transparent;
 }
 #yellow5 {
@@ -517,7 +563,7 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 13000px;
+    padding-top: 700vw;
     background-color: transparent;
 }
 
@@ -527,7 +573,7 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 18300px;
+    padding-top: 1160vw;
     background-color: transparent;
 }
 
@@ -536,7 +582,7 @@ audio {
     position: absolute;
     width: 100%;
     margin: 0;
-    padding-top: 21600px;
+    padding-top: 1400vw;
     background-color: transparent;
 }
 
@@ -588,8 +634,8 @@ audio {
     z-index: 3;
     position: relative;
     font-size: 25px;
-    padding-left: 35vw;
-    padding-top: 10300px;
+    padding-left: 30vw;
+    padding-top: 690vw;
     position: absolute;
     background-color: transparent;
 }
@@ -599,21 +645,24 @@ audio {
     position: relative;
     color: papayawhip;
     font-family: "Courier";
-    font-size: 25px;
-    padding-left: 18vw;
-    padding-top: 9800px;
+    font-size: 2vw;
+    padding-top: 650vw;
     position: absolute;
     background-color: transparent;
 }
+
 #rebelend {
-    z-index: 3;
-    position: relative;
+    position: absolute;
     color: papayawhip;
     font-family: "Courier";
     font-size: 25px;
-    padding-left: 1vw;
-    padding-top: 900px;
-    position: absolute;
+    font-size: 2vw;
+    z-index: 10;
+    padding-top: 75vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: inline-block;
+    text-align: left;
     background-color: transparent;
 }
 
