@@ -640,6 +640,15 @@ audio {
     background-color: transparent;
 }
 
+.choices-six {
+    font-size: 2vw;
+    padding-left: 23vw;
+    padding-top: 120vw;
+    position: absolute;
+    background-color: transparent;
+    /* animation: fadein 8s ease-in; */
+}
+
 #descend {
     z-index: 3;
     position: relative;
@@ -664,6 +673,7 @@ audio {
     display: inline-block;
     text-align: left;
     background-color: transparent;
+    animation: fadein 7s ease-in;
 }
 
 p {
