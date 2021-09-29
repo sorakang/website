@@ -79,10 +79,10 @@ audio {
 }
 
 #typewriter.five {
-    font-size: 2vw;
+    font-size: 1.5vw;
     z-index: 10;
-    padding-top: 70px;
-    padding-left: 10vw;
+    padding-top: 110px;
+    padding-left: 20vw;
     padding-right: 10vw;
     display: inline-block;
     text-align: left;
@@ -90,10 +90,10 @@ audio {
 }
 
 #typewriter.six {
-    font-size: 2vw;
+    font-size: 1.5vw;
     z-index: 10;
     padding-top: 1vw;
-    padding-left: 10vw;
+    padding-left: 20vw;
     padding-right: 10vw;
     display: inline-block;
     text-align: left;
@@ -331,7 +331,7 @@ audio {
     position: absolute;
     width: 1200px;
     margin: 0;
-    padding-top: 80vw;
+    padding-top: 1000px;
     background-color: transparent;
     animation: fadein 6s;
 }
@@ -633,7 +633,7 @@ audio {
 .choices-four {
     z-index: 3;
     position: relative;
-    font-size: 25px;
+    font-size: 1.5vw;
     padding-left: 30vw;
     padding-top: 690vw;
     position: absolute;
@@ -654,7 +654,8 @@ audio {
     position: relative;
     color: papayawhip;
     font-family: "Courier";
-    font-size: 2vw;
+    font-size: 1.5vw;
+    padding-left: 10vw;
     padding-top: 650vw;
     position: absolute;
     background-color: transparent;
@@ -665,7 +666,7 @@ audio {
     color: papayawhip;
     font-family: "Courier";
     font-size: 25px;
-    font-size: 2vw;
+    font-size: 1.5vw;
     z-index: 10;
     padding-top: 75vw;
     padding-left: 10vw;
