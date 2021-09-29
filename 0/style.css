@@ -79,8 +79,19 @@ audio {
 
 #typewriter.one {
     z-index: 1;
-    padding-top: 70px;
+    font-size: 1.5vw;
+    padding-top: 30px;
     padding-left: 10vw;
+    display: inline-block;
+    text-align: left;
+    background-color: transparent;
+}
+
+#typewriter.one2 {
+    z-index: 1;
+    font-size: 1.5vw;
+    padding-top: 30px;
+    padding-left: 15vw;
     display: inline-block;
     text-align: left;
     background-color: transparent;
@@ -275,18 +286,18 @@ audio {
     position: absolute;
     width: 1200px;
     margin: 0;
-    padding-top: 850px;
+    padding-top: 1000px;
     background-color: transparent;
-    animation: fadein 4s ease-in;
+    animation: fadein 3s ease-in;
 }
 
 #sleep4 {
     position: absolute;
     width: 1200px;
     margin: 0;
-    padding-top: 850px;
+    padding-top: 1000px;
     background-color: transparent;
-    animation: flash 4s infinite, fadein 4s ease-in;
+    animation: flash 4s infinite, fadein 3s ease-in;
 }
 
 @keyframes flash {
@@ -320,7 +331,7 @@ audio {
     position: absolute;
     width: 1000px;
     margin: 0;
-    padding-top: 650px;
+    padding-top: 950px;
     background-color: transparent;
     animation: fadein 5s cubic-bezier(0.23, 0.0, 1, 1);
 }
@@ -330,7 +341,7 @@ audio {
     position: absolute;
     width: 1000px;
     margin: 0;
-    padding-top: 650px;
+    padding-top: 950px;
     background-color: transparent;
     animation: fadein 1s ease-in;
 }
