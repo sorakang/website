@@ -52,7 +52,6 @@ a:hover {
     }
     p,
     a { 
-        visibility: none;
         display: none;
     }
 }

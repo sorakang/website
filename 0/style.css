@@ -82,10 +82,10 @@ body.one {
 
 body.five {
     max-height: 200px;
-    animation: disablescroll 37s;
+    animation: disablescroll 36s;
 }
 
-/* body.five:after {
+body.five:after {
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -94,7 +94,7 @@ body.five {
     0% { overflow: hidden;}
     100% { overflow: scroll;
         overflow-x: hidden;}
-} */
+}
 
 /* --------Sound--------- */
 audio {
@@ -110,6 +110,14 @@ audio {
     display: flex;
     text-align: center;
     background-color: transparent;
+}
+
+#typewriter{
+    z-index: 10;
+    font-size: 1.5em;
+    margin: 0;
+    font-family: "Courier New";
+    color: papayawhip;
 }
 
 #typewriter.zero {
@@ -608,7 +616,7 @@ audio {
     margin: 0;
     padding-top: 160vw;
     background-color: transparent;
-    animation: fadein 13s ease-in;
+    animation: fadein 14s ease-in;
 }
 #blue3 {
     z-index: 7;
@@ -643,7 +651,7 @@ audio {
     margin: 0;
     padding-top: 160vw;
     background-color: transparent;
-    animation: fadein 13s ease-in;
+    animation: fadein 15s ease-in;
 }
 #green2 {
     z-index: 8;
@@ -660,7 +668,7 @@ audio {
     margin: 0;
     padding-top: 240vw;
     background-color: transparent;
-    animation: fadein 13s ease-in;
+    animation: fadein 15s ease-in;
 }
 
 
