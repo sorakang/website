@@ -21,7 +21,52 @@ color: red;
     background-color: rgb(20, 18, 18);
 }
 
+.screen {
+    opacity: 0;
+}
 
+@media screen and (max-width: 1000px) {
+    .screen {
+        opacity: 1;
+        z-index: 100;
+        position: fixed;
+        padding-top: 40vw;
+        padding-left: 9vw;
+        padding-bottom: 20vw;
+        font-size: 4vw;
+        color: papayawhip;
+        font-family: 'Courier';
+        background-color: rgb(20, 18, 18);
+    }
+    #typewriter {
+        visibility: hidden;
+    }
+    img {
+        display: none;
+    }
+    .scroll,
+    .scroll-one,
+    .scroll-two,
+    .scroll-three,
+    .scroll-five,
+    .scroll-six,
+    .choices-zero,
+    .choices-one-,
+    .choices-one,
+    .choices-two,
+    .choices-three,
+    .choices-four,
+    .choices-six {
+        visibility: hidden;
+        display: none;
+    }
+    #rebelend,
+    #descend {
+        visibility: hidden;
+        display: none;
+    }
+
+}
 
 body.zero {
     min-height: 1300px;
@@ -53,7 +98,6 @@ body.five:after {
 
 /* --------Sound--------- */
 audio {
-    /* fix audio timing */
     width: 0px;
     bottom: 0; 
     position: fixed; 
@@ -70,7 +114,8 @@ audio {
 
 #typewriter.zero {
     z-index: 3;
-    padding-top: 180px;
+    font-size: 1.5vw;
+    padding-top: 15vw;
     padding-left: 10vw;
     display: inline-block;
     text-align: left;
@@ -161,10 +206,6 @@ audio {
     background-color: transparent;
 }
 
-.pause {
-    color: rgb(20, 18, 18);
-}
-
 .shift {
     color: rgb(236, 49, 49);
     font-weight: bold;
@@ -201,7 +242,7 @@ audio {
     justify-content: center;
     align-items: center;
 }
-.scroll-two {
+.scroll-three {
     background-color: transparent;
     color: papayawhip;
     font-family: 'Courier';

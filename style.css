@@ -32,3 +32,27 @@ a.lang {
 a:hover {
     color: cornflowerblue;
 }
+
+.screen {
+    opacity: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .screen {
+        opacity: 1;
+        z-index: 100;
+        position: fixed;
+        padding-top: 40vw;
+        padding-left: 9vw;
+        padding-bottom: 20vw;
+        font-size: 4vw;
+        color: papayawhip;
+        font-family: 'Courier';
+        background-color: rgb(20, 18, 18);
+    }
+    p,
+    a { 
+        visibility: none;
+        display: none;
+    }
+}
