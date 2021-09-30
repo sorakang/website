@@ -114,7 +114,6 @@ audio {
 
 #typewriter{
     z-index: 10;
-    font-size: 1.5em;
     margin: 0;
     font-family: "Courier New";
     color: papayawhip;
@@ -123,7 +122,7 @@ audio {
 #typewriter.zero {
     z-index: 3;
     font-size: 1.5vw;
-    padding-top: 15vw;
+    padding-top: 10vw;
     padding-left: 10vw;
     display: inline-block;
     text-align: left;
