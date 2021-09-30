@@ -77,6 +77,26 @@ audio {
     background-color: transparent;
 }
 
+#typewriter.zero1 {
+    z-index: 3;
+    font-size: 1.5vw;
+    padding-top: 1vw;
+    padding-left: 10vw;
+    display: inline-block;
+    text-align: left;
+    background-color: transparent;
+}
+
+#typewriter.zero3 {
+    z-index: 3;
+    font-size: 1.5vw;
+    padding-top: 1vw;
+    padding-left: 7vw;
+    display: inline-block;
+    text-align: left;
+    background-color: transparent;
+}
+
 #typewriter.one {
     z-index: 1;
     font-size: 1.5vw;
@@ -381,12 +401,13 @@ audio {
     position: absolute;
     width: 1200px;
     margin: 0;
-    padding-top: 700px;
+    padding-top: 900px;
     background-color: transparent;
-    animation: fadein 8s ease-in;
+    animation: fadein 6s ease-in;
 }
 
 #goodnight {
+    z-index: 6;
     position: absolute;
     width: 1200px;
     margin: 0;
@@ -709,13 +730,13 @@ audio {
     font-size: 25px;
     font-size: 1.5vw;
     z-index: 10;
-    padding-top: 75vw;
+    padding-top: 950px;
     padding-left: 20vw;
     padding-right: 10vw;
     display: inline-block;
     text-align: left;
     background-color: transparent;
-    animation: fadein 7s ease-in;
+    /* animation: fadein 7s ease-in; */
 }
 
 p {
