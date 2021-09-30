@@ -135,7 +135,7 @@ audio {
 #typewriter.zero3 {
     z-index: 3;
     font-size: 1.5vw;
-    padding-top: 1vw;
+    padding-top: 0vw;
     padding-left: 7vw;
     display: inline-block;
     text-align: left;
@@ -241,6 +241,7 @@ audio {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
 }
 .scroll-three {
     background-color: transparent;
