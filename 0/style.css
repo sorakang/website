@@ -85,7 +85,7 @@ body.five {
     animation: disablescroll 37s;
 }
 
-body.five:after {
+/* body.five:after {
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -94,7 +94,7 @@ body.five:after {
     0% { overflow: hidden;}
     100% { overflow: scroll;
         overflow-x: hidden;}
-}
+} */
 
 /* --------Sound--------- */
 audio {
@@ -535,17 +535,17 @@ audio {
 #doorway {
     z-index: 6;
     position: absolute;
-    width: 100%;
+    width: 1200px;
     margin: 0;
-    padding-top: 110vw;
+    padding-top: 1200px;
     background-color: transparent;
 }
 #door {
     z-index: 3;
     position: absolute;
-    width: 100%;
+    width: 1200px;
     margin: 0;
-    padding-top: 110vw;
+    padding-top: 1200px;
     background-color: transparent;
 }
 
@@ -720,6 +720,54 @@ audio {
     width: 100%;
     margin: 0;
     padding-top: 1160vw;
+    background-color: transparent;
+}
+#orange1 {
+    z-index: 7;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 700vw;
+    background-color: transparent;
+}
+#orange2 {
+    z-index: 7;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 700vw;
+    background-color: transparent;
+}
+#orange3 {
+    z-index: 7;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 700vw;
+    background-color: transparent;
+}
+#orange4 {
+    z-index: 7;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 700vw;
+    background-color: transparent;
+}
+#orange5 {
+    z-index: 7;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 800vw;
+    background-color: transparent;
+}
+#orange6 {
+    z-index: 5;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 800vw;
     background-color: transparent;
 }
 
