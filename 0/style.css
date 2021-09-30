@@ -184,6 +184,28 @@ audio {
     background-color: transparent;
 }
 
+#typewriter.three2 {
+    font-size: 1.5vw;
+    z-index: 10;
+    padding-top: 10px;
+    padding-left: 2vw;
+    padding-right: 10vw;
+    display: inline-block;
+    text-align: left;
+    background-color: transparent;
+}
+
+#typewriter.four {
+    font-size: 1.5vw;
+    z-index: 10;
+    padding-top: 10px;
+    padding-left: 2vw;
+    padding-right: 10vw;
+    display: inline-block;
+    text-align: left;
+    background-color: transparent;
+}
+
 #typewriter.five {
     font-size: 1.5vw;
     z-index: 10;
@@ -200,6 +222,17 @@ audio {
     z-index: 10;
     padding-top: 1vw;
     padding-left: 20vw;
+    padding-right: 10vw;
+    display: inline-block;
+    text-align: left;
+    background-color: transparent;
+}
+
+#typewriter.six2 {
+    font-size: 1.5vw;
+    z-index: 10;
+    padding-top: 1vw;
+    padding-left: 7vw;
     padding-right: 10vw;
     display: inline-block;
     text-align: left;
@@ -253,6 +286,15 @@ audio {
     align-items: center;
 }
 
+.scroll-four {
+    background-color: transparent;
+    color: papayawhip;
+    font-family: 'Courier';
+    animation: fadein 7s ease-in, float 3s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .scroll-five {
     background-color: transparent;
     color: papayawhip;
